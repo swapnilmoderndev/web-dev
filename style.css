@@ -1,6 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 h1 {
   color: orangered;
 }
 p {
   color: gray;
+}
+nav {
+  background-color: orangered;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
